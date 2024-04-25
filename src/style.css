@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1024px;
+  flex-flow: row;
+}
+
+.small-circle{
+  height: 528px;
+  width: 528px;
+  border-radius: 50%;
+  background: rgb(198,252,255);
+  background: radial-gradient(circle, rgba(198,252,255,0.336) 0%, rgba(198,252,255,0) 100%);
+  position: absolute;
+  top: 5px;
+  left: 650px;
+}
+
+.medium-circle{
+  height: 720px;
+  width: 720px;
+  border-radius: 50%;
+  background: rgb(255, 221, 182);
+  background: radial-gradient(circle, rgba(255, 221, 182, 0.336) 0%, rgba(255, 221, 182, 0) 100%);
+  position: absolute;
+  top: 150px;
+  left: 1130px;
+}
+
+.big-circle{
+  height: 1000px;
+  width: 1000px;
+  border-radius: 50%;
+  background: rgb(237,187,255);
+  background: radial-gradient(circle, rgba(237,187,255, 0.336) 0%, rgba(237,187,255, 0) 100%);
+  position: absolute;
+  top: 125px;
+  left: 0px;
+}
+
+.profile-container{
+  width: 1058px;
+  height: 504px;
+  border-radius: 30px;
+  border: 20px solid #fff;
+  z-index: 1;
+  background-color: #ffffff70;
+  display: flex;
+}
+
+.profile-img{
+  /* grid-area: ProfileImg; */
+  flex: 4;
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 35px;
+}
+
+.profile-img img{
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 10px solid #E6E6E6;
+}
+
+.container-info{
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly
+}
+
+.profile-info{
+  /* flex: 50%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #141843;
+  padding: 0;
+}
+
+.profile-job{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #5F627A;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.profile-desc{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #141843;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.profile-socialmedia{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socialmedia-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  width: 450px;
+}
+
+.btn-socialmedia{
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+}
+
+.btn-follow{
+  background-color: #AEF1F5;
+  border: 1px solid #141843;
+  width: 160px;
+  border-radius: 10px;
+  height: 62px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #141843;
+}
+
+.btn-view{
+  background-color: #FFDDB6;
+  border: 1px solid #141843;
+  width: 160px;
+  border-radius: 10px;
+  height: 62px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #141843;
+}
